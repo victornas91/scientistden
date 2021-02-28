@@ -13,27 +13,27 @@ Recently after revisiting the game and having to make the exploit work I've deci
 
 First a brief explain of how the exploit works: 
 
-![medrec]({{site.baseurl}}/assets/img/medrec.png)
+![medrec]({{site.baseurl}}/assets/img/medrec.PNG)
 
 By mid-game us players already have a shop available where we can buy recovery items. The trick is to buy a specific one: the med recovery. By doing that and trading with one of the npcs(non-player-character, basic anyone that's not us in the game) we can turn a $500 item into a $2000 one. Selling the resulting item allow us to get rich "quick".
 
-![mj]({{site.baseurl}}/assets/img/mj.png)
+![mj]({{site.baseurl}}/assets/img/mj.PNG)
 
 After talking with this npc (Mojyamon is its name) we can begin the bargain. But here the tedious part begin: we have to select the npc, select the item we want him to trade with us, then select our item from the inventory and then confirm. Doing this 5 times is not a problem but for all the greedy people that buy 99 med recovery (since 99 is the inventory individual limit) imagine doing this whole shenanigan 99 times FOR EACH item. That's where Python with our time saviour module pyautogui comes to the rescue. PyautoGUI let us emulate inputs from keyboards and mice. That and much more, you all will see here!
 
-![pyautogui]({{site.baseurl}}/assets/img/pyautogui.png)
+![pyautogui]({{site.baseurl}}/assets/img/pyautogui.PNG)
 
 First we import pyautoGUI.
 
-![ct]({{site.baseurl}}/assets/img/ct.png)
+![ct]({{site.baseurl}}/assets/img/ct.PNG)
 
 Now we will create a basic infinite loop. Remember that this initial bot lacks refinement. It will just emulate a player doing a repetetive task endlessly. 
 
-![kp]({{site.baseurl}}/assets/img/kp.png)
+![kp]({{site.baseurl}}/assets/img/kp.PNG)
 
 Using the keyDown() function we emulate a person pressing the desired keyboard key and holding it down, in my case since i'm using an emulator, the corresponding key to the Circle of the Ps1 is the numpad6 of the keyboard. Next with the PAUSE function we are saying to the bot "hey, wait half a second before doing the next thing". Finally with the keyUp() function we emulate the act of letting go the key.
 
-![fullkeys]({{site.baseurl}}/assets/img/fullkeys.png)
+![fullkeys]({{site.baseurl}}/assets/img/fullkeys.PNG)
 
 And that's the rest of the loop: these are the exact number of key pressess to do the whole operation, including making the selector go down once (notice the change of the key pressed from numpad6 to 's' halfway through).
 
