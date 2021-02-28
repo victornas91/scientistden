@@ -3,7 +3,7 @@ layout: post
 title: Digimon World Automation Part 1!
 date: 2021-02-28 13:59:00 +0300
 description: Beginning to believe. # Add post description (optional)
-img: mj.png # Add image post (optional)
+img: mj.PNG # Add image post (optional)
 tags: [Python, AI] # add tag
 ---
 You know, back when I was a little lad, I used to play this game called Digimon World for the Ps1. The mix of being a babysitter for a digital monster and the intense battles made me love the game. And as everything in our world, currency is a big thing in this game too.
