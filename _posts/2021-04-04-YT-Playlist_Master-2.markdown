@@ -11,7 +11,7 @@ Now we are able to choose between a single video and an entire playlist! Neato!
 
 The code already commented is as follows:
 
-![full]({{site.baseurl}}/assets/img/ytpdfull2.png)
+![full]({{site.baseurl}}/assets/img/ytpdfull2.PNG)
 
 
 But this is not his final form yet! 
