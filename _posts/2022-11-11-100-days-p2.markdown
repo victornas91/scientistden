@@ -1,0 +1,23 @@
+---
+layout: post
+title: 100 Days of Coding Part 2!
+date: 2022-11-11 23:00:00 +0300
+description: Advancing at minimum. # Add post description (optional)
+img: cloud_infosec_p2.png # Add image post (optional)
+tags: [Blog] # add tag
+---
+
+
+Boya oh boya! Again!
+
+Here I am reporting my evolution during this crazy #100daysofcoding. 
+Continuing the trend I've decided to once more study cloud + infosec as
+explained on the previous post [here](https://victornas91.github.io/scientistden/New_Journey).
+
+Today was about the chgrp, chown, man and apt commands, their syntax, 
+powers and caveats. Oh and also a little of grep and less too. Since the day was packed I could not pay much attention to studying but tomorrow is weekend and there's big plans out there!  
+
+
+That's it! Hope you have enjoyed my adventure so far!
+
+Excelsior ad Infinitum!
